@@ -1,6 +1,7 @@
 step (4:15.08.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * New patch: eigen3.patch, that removes the eigen2 support (Closes:
+    #786351) Thanks to Anton Gladky
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Sep 2015 00:03:14 +0200
 
