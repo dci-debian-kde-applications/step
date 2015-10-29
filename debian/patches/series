@@ -1,1 +1,2 @@
 eigen3.patch
+wa_qt5.5_qvariant_to_string.diff

@@ -2,6 +2,7 @@ step (4:15.08.0-3~) UNRELEASED; urgency=medium
 
   * Rebuild for unstable. (Closes: #803381) Thanks to Chris Lamb for reporting
     the issue.
+  * New workaround patch: wa_qt5.5_qvariant_to_string.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Oct 2015 16:18:09 +0100
 
