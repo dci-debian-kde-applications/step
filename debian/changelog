@@ -3,6 +3,7 @@ step (4:15.08.0-3) unstable; urgency=medium
   * Rebuild for unstable. (Closes: #803381) Thanks to Chris Lamb for reporting
     the issue.
   * New workaround patch: wa_qt5.5_qvariant_to_string.diff
+  * New patch: gravitation_variance.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Oct 2015 18:56:42 +0100
 
