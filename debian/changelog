@@ -1,3 +1,9 @@
+step (4:15.08.3-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:40:41 +0100
+
 step (4:15.08.0-3) unstable; urgency=medium
 
   * Rebuild for unstable. (Closes: #803381) Thanks to Chris Lamb for reporting
