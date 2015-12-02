@@ -1,4 +1,4 @@
-step (4:15.08.3-1~) UNRELEASED; urgency=medium
+step (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
 
@@ -6,7 +6,9 @@ step (4:15.08.3-1~) UNRELEASED; urgency=medium
   * Update build dependencies for GSL 2, change libgsl0-dev to libgsl-dev.
     (Closes: #804501)
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Nov 2015 09:40:41 +0100
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:11 +0100
 
 step (4:15.08.0-3) unstable; urgency=medium
 
