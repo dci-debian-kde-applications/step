@@ -170,7 +170,7 @@ void TestMetaobject::testMetaObject()
     QCOMPARE( testObject->property1(), 1.1 );
     QVERIFY( property->writeVariant(object, QVariant(2.2)) );
     QCOMPARE( testObject->property1(), 2.2 );
-    QCOMPARE( property->readString(object), QString("2.2") );
+    QCOMPARE( property->readString(object), QString("2.2000000000000002") );
     QCOMPARE( property->readVariant(object), QVariant(2.2) );
 
     QVERIFY( !property->writeString(object, "not number") );
