@@ -1,6 +1,7 @@
 step (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release 
+  * New upstream release
+  * Disbaling autotests due to fix needed upstream 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 23:49:44 +0000
 
