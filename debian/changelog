@@ -1,8 +1,8 @@
-step (4:15.12.0-1~) UNRELEASED; urgency=medium
+step (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:14:24 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:16 +0100
 
 step (4:15.08.3-1) unstable; urgency=medium
 
