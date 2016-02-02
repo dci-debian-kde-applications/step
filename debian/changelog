@@ -1,9 +1,27 @@
-step (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+step (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
-  * Disbaling autotests due to fix needed upstream 
+  * Merge with debian git master
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 23:49:44 +0000
+
+step (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:16 +0100
+
+step (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+  [ Bas Couwenberg ]
+  * Update build dependencies for GSL 2, change libgsl0-dev to libgsl-dev.
+    (Closes: #804501)
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:11 +0100
 
 step (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -17,6 +35,32 @@ step (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:47:30 +0100
+
+step (4:15.08.0-3) unstable; urgency=medium
+
+  * Rebuild for unstable. (Closes: #803381) Thanks to Chris Lamb for reporting
+    the issue.
+  * New workaround patch: wa_qt5.5_qvariant_to_string.diff
+  * New patch: gravitation_variance.diff
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Oct 2015 18:56:42 +0100
+
+step (4:15.08.0-2) experimental; urgency=medium
+
+  * New patch: eigen3.patch, that removes the eigen2 support (Closes:
+    #786351) Thanks to Anton Gladky
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Sep 2015 07:27:30 +0200
+
+step (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * Remove upstream applied patch: replace_eigen2_by_eigen3.patch
+  * New upstream release (15.04.3).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 18:28:58 +0200
 
 step (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -41,6 +85,12 @@ step (4:15.04.2-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 22:44:30 +0200
+
+step (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:25 +0200
 
 step (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
@@ -77,6 +127,14 @@ step (4:14.11.97-0ubuntu1) vivid; urgency=medium
   * New upstream RC release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 01 Dec 2014 18:03:53 +0100
+
+step (4:4.14.2-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add libsoprano-dev to build-depends since it is no longer pulled in
+    transatively
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 28 Aug 2015 16:32:42 -0400
 
 step (4:4.14.2-1) unstable; urgency=medium
 
