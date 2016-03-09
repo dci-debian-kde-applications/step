@@ -1,9 +1,9 @@
-step (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+step (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Merge with debian git master
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 23:49:44 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:36:53 +0100
 
 step (4:15.12.0-1) experimental; urgency=medium
 
