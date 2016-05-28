@@ -1,12 +1,15 @@
-step (4:16.04.0-1~1.gbp4fc5b1) UNRELEASED; urgency=medium
+step (4:16.04.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @4fc5b17abc1a77d20630628cf7b2b1308159d27c **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:13:15 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 02:30:01 +0200
 
 step (4:15.12.0-1) experimental; urgency=medium
 
