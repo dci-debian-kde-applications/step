@@ -1,8 +1,17 @@
-Index: step/stepcore/gravitation.cc
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 01:13:13 +0200
+Subject: gravitation_variance
+
 ===================================================================
---- step.orig/stepcore/gravitation.cc	2016-01-27 16:44:57.258729237 +0100
-+++ step/stepcore/gravitation.cc	2016-01-27 16:45:22.309717883 +0100
-@@ -85,9 +85,13 @@
+---
+ stepcore/gravitation.cc | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/stepcore/gravitation.cc b/stepcore/gravitation.cc
+index bef09db..14ba4a3 100644
+--- a/stepcore/gravitation.cc
++++ b/stepcore/gravitation.cc
+@@ -85,9 +85,13 @@ void GravitationForce::calcForce(bool calcVariances)
                  ParticleErrors* pe1 = p1->particleErrors();
                  ParticleErrors* pe2 = p2->particleErrors();
                  Vector2d rV = pe2->positionVariance() + pe1->positionVariance();
