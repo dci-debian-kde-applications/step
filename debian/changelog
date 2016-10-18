@@ -1,11 +1,8 @@
-step (4:16.08.0-1~1.gbp8a6ee8) UNRELEASED; urgency=medium
+step (4:16.08.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @8a6ee82f326aff1bb09a2fea8d2772bc5dba3eed **
+  * New upstream release (16.08.0)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 19:13:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 15:01:37 +0200
 
 step (4:16.04.0-1) unstable; urgency=medium
 
