@@ -32,6 +32,8 @@ Package: step
 Architecture: any
 Section: science
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: interactive physical simulator for KDE
  With Step you can not only learn but feel how physics works. You place some
  bodies on the scene, add some forces such as gravity or springs, then click
