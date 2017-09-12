@@ -1,3 +1,11 @@
+step (4:17.08.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Sep 2017 14:46:15 +0200
+
 step (4:17.08.1-0neon) xenial; urgency=medium
 
   * New release
