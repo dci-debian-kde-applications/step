@@ -6,12 +6,12 @@ Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               libkf5doctools-dev,
                libeigen3-dev (>= 3.2.2~),
                libglib2.0-dev,
                libgsl-dev,
                libkf5config-dev,
                libkf5crash-dev,
+               libkf5doctools-dev,
                libkf5kdelibs4support-dev,
                libkf5khtml-dev,
                libkf5newstuff-dev,
@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.1.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/step.git
