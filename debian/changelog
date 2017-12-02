@@ -6,6 +6,7 @@ step (4:17.08.3-0r1) UNRELEASED; urgency=medium
     drop translations.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Dec 2017 13:03:31 +0100
 
@@ -194,7 +195,7 @@ step (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * wrap-and-sort 
+  * wrap-and-sort
   * Vivid backport
 
   [ Jonathan Riddell ]
