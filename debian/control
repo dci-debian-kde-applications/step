@@ -23,6 +23,7 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
+               qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
